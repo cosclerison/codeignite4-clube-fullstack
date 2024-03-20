@@ -1,5 +1,20 @@
 # CodeIgniter 4 Application Starter
 
+##  Servidor Usando PHP
+    $ php -S localhost:8000 -t public
+
+##  Servidor Usando SPARK
+    $ php spark serve --port 8000
+
+    (opcional) para usar este mode de subir o servidor é necessario criar o alias da url do dominio que sera usado
+    Com dominio
+    $ php spark serve --host dominio.local
+    
+    Com dominio e porta
+    $ php spark serve --port 8000 --host dominio.local
+
+
+
 ## What is CodeIgniter?
 
 CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
